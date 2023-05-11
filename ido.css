@@ -55,3 +55,9 @@ h1, h2{
 	color: #243f84;
 	text-transform: uppercase;
 }
+table{
+	text-align: center;
+	border-collapse: collapse;
+	margin-left: auto;
+    margin-right: auto;
+}
