@@ -63,3 +63,10 @@ table{
 	width: 80%;
 	border: solid 3px;
 }
+.szurke{
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	color: #808183;
+	text-decoration: none;
+}
