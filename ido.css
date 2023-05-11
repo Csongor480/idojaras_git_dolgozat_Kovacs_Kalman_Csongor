@@ -82,3 +82,6 @@ dt{
 	width: 5%;
 	float: right;
 }
+input:focus{
+	background-color: #808183 ;
+}
