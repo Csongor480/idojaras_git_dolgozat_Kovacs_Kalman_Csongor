@@ -5,8 +5,9 @@ body
 {
 	background-size:100% auto;
 	background-image: url(background.jpg);
+	font-family: "Lucida Sans Unicode", "Lucida Grande" sans-serif;
+    line-height: 1.5em;	
 }
-
 #keret
 {
 	position:absolute;
