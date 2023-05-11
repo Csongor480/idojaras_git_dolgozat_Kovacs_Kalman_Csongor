@@ -63,9 +63,15 @@
         
        <hr>
        <h2>Hőingás kiszámítása</h2> 
-       <p>A mai legalacsonyabb hőmérésklet: </p>
-       <p>A mai legmagasabb hőmérésklet: </p>
-        
+       <form>
+        <label for="minimumho">A mai legalacsonyabb hőmérésklet:</label>
+        <input type="number" id="minimumho" min="-25" max="50"><br>
+        <label for="maximumho">A mai legmagasabb hőmérésklet:</label>
+        <input type="number" id="maximumho" min="-25" max="50"><br>
+        <input type="button" value="Számolj!" onclick="szamol()"><br>
+        <p class="felkover">A mai napi hőingás <span id="eredmeny"></span> &#8451; volt.</p>
+
+    </form>
         <https://met.hu/eghajlat/magyarorszag_eghajlata/eghajlati_visszatekinto/elmult_evek_idojarasa/>
         
     </div>
